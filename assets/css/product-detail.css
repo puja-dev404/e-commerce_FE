@@ -45,6 +45,16 @@
 .star-rating {
     color: #ffc107;
 }
+.carousel-inner {
+    height: 400px; /* Adjust this height as per your need */
+    overflow: hidden; /* Ensures that any image extending outside the container is hidden */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Ensures the image fills the container without stretching */
+    height: 100%; /* Make the image fill the container's height */
+    width: 100%; /* Make the image fill the container's width */
+}
 
 /* Carousel Image */
 .carousel-img {
