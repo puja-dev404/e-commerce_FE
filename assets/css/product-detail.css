@@ -1,0 +1,189 @@
+.color-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    cursor: pointer;
+}
+
+.color-option.active {
+    border: 2px solid #000;
+}
+
+.size-option {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.size-option:hover,
+.size-option.active {
+    background-color: #ffcc00;
+    color: #000;
+    border-color: #ffcc00;
+}
+
+.thumbnail-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.thumbnail-img.active {
+    border-color: #ffcc00;
+}
+
+.product-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.star-rating {
+    color: #ffc107;
+}
+
+/* Carousel Image */
+.carousel-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Make sure the carousel container takes full width and height */
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.rating-bar {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    height: 8px;
+}
+
+.rating-bar-fill {
+    background-color: #f9b233;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.star-rating {
+    color: #f9b233;
+}
+
+.highlight-row {
+    background-color: #f6c667;
+    /* Highlight color for the Feature header */
+    font-weight: bold;
+    color: black;
+}
+
+
+
+/* Custom CSS */
+.review-title {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.review-time {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.review-rating i {
+    color: #ffc107;
+    /* Gold color for stars */
+}
+
+.review-img {
+    max-width: 100px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.review-content {
+    margin-top: 15px;
+}
+
+.form-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.custom-file-upload {
+    border: 2px dashed #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #6c757d;
+}
+
+.submit-btn {
+    background-color: #6c757d;
+    border: none;
+}
+
+.submit-btn:hover {
+    background-color: #5a6268;
+}
+
+
+.highlight-row{
+    background-color: #f6c667;
+}
+
+.text-success {
+    padding: 3px;
+    color: green;
+    border: 1px solid;
+}
+
+
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2px;
+    width: fit-content;
+    margin-right: 4px;
+  }
+  
+  .input-group .btn {
+    background-color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .input-group .btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .input-group .btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .input-group .form-control {
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    width: 50px;
+  }
+  
+  .input-group .form-control:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }

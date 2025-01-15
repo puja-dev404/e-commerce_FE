@@ -1,0 +1,79 @@
+.form-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-label.required::after {
+    content: " *";
+    color: #333;
+}
+
+.form-control {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-control::placeholder {
+    color: #999;
+}
+
+.form-select {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.order-summary {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 1.5rem;
+    border: 1px solid #eee;
+}
+
+.order-summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    font-size: 14px;
+}
+
+.order-total {
+    font-weight: 600;
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+.btn-payment {
+    background-color: #4A2512;
+    color: white;
+    padding: 0.75rem;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-payment:hover {
+    background-color: #3a1d0e;
+    color: white;
+}
+
+.delivery-option {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .order-summary {
+        margin-top: 2rem;
+    }
+}
