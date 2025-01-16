@@ -21,6 +21,7 @@
     <link rel="icon" href="./assets/images/logo.png" type="image/png">
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/wishlist.css">
+    <link rel="stylesheet" href="./assets/css/shop.css">
 
  </head>
  <body>
@@ -35,235 +36,237 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto gap-4">
+            <ul class="navbar-nav mx-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
-                <li class="nav-item"><a class="nav-link" href="women.html">Women</a></li>
                 <li class="nav-item"><a class="nav-link" href="accessories.html">Accessories</a></li>
-                <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
             </ul>
             <div class="icons d-flex">
                 <a href="shop.html"><i class="bi bi-search"></i></a>
                 <a href="wishlist.html"><i class="bi bi-heart"></i></a>
                 <a href="cart.html"><i class="bi bi-cart"></i></a>
-                <a href="#"> <i class="bi bi-person"></i></a>
+                <a href="account.html"> <i class="bi bi-person"></i></a>
             </div>
         </div>
     </div>
 </nav>
 
-
-  <div class="container">
-   <div class="header">
-    <h1>
-     Wishlist
-    </h1>
-    <div class="breadcrumb">
-     Home / Wishlist
+<section class="hero-section">
+    <div class="row">
+        <section class="shop-header text-center">
+            <h1>Wishlist</h1>
+            <nav class="breadcrumb justify-content-center">
+                <span>Home</span> /Wishlist</span>
+            </nav>
+          </section>
+          
+    </div>
+</section>
+   <!-- table section -->
+   <div class="container py-5">
+    <div class="row">
+        <table class="wishlist-table mt-3">
+            <thead>
+             <tr>
+              <th>
+               Product
+              </th>
+              <th>
+               Price
+              </th>
+              <th>
+               Date Added
+              </th>
+              <th>
+               Stock Status
+              </th>
+              <th>
+              </th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td>
+               <div class="product-info">
+                <i class="fas fa-times remove-btn">
+                </i>
+                <img alt="Light Brown Sweater" src="https://placehold.co/50x50"/>
+                <div>
+                 <p>
+                  Light Brown Sweater
+                 </p>
+                 <p>
+                  Color: Light Brown | Size: XXL
+                 </p>
+                </div>
+               </div>
+              </td>
+              <td>
+               $64.00
+              </td>
+              <td>
+               18 February 2024
+              </td>
+              <td class="in-stock">
+               In stock
+              </td>
+              <td>
+               <button class="add-to-cart-btn">
+                Add to Cart
+               </button>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <div class="product-info">
+                <i class="fas fa-times remove-btn">
+                </i>
+                <img alt="Modern Brown Dress" src="https://placehold.co/50x50"/>
+                <div>
+                 <p>
+                  Modern Brown Dress
+                 </p>
+                 <p>
+                  Color: Brown | Size: M
+                 </p>
+                </div>
+               </div>
+              </td>
+              <td>
+               $90.00
+              </td>
+              <td>
+               11 February 2024
+              </td>
+              <td class="in-stock">
+               In stock
+              </td>
+              <td>
+               <button class="add-to-cart-btn">
+                Add to Cart
+               </button>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <div class="product-info">
+                <i class="fas fa-times remove-btn">
+                </i>
+                <img alt="Brown Winter Coat" src="https://placehold.co/50x50"/>
+                <div>
+                 <p>
+                  Brown Winter Coat
+                 </p>
+                 <p>
+                  Color: Brown | Size: M
+                 </p>
+                </div>
+               </div>
+              </td>
+              <td>
+               $60.00
+              </td>
+              <td>
+               11 February 2024
+              </td>
+              <td class="in-stock">
+               In stock
+              </td>
+              <td>
+               <button class="add-to-cart-btn">
+                Add to Cart
+               </button>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <div class="product-info">
+                <i class="fas fa-times remove-btn">
+                </i>
+                <img alt="Classic White Shirt" src="https://placehold.co/50x50"/>
+                <div>
+                 <p>
+                  Classic White Shirt
+                 </p>
+                 <p>
+                  Color: White | Size: S
+                 </p>
+                </div>
+               </div>
+              </td>
+              <td>
+               $45.00
+              </td>
+              <td>
+               05 February 2024
+              </td>
+              <td class="in-stock">
+               In stock
+              </td>
+              <td>
+               <button class="add-to-cart-btn">
+                Add to Cart
+               </button>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <div class="product-info">
+                <i class="fas fa-times remove-btn">
+                </i>
+                <img alt="Trendy Brown Coat" src="https://placehold.co/50x50"/>
+                <div>
+                 <p>
+                  Trendy Brown Coat
+                 </p>
+                 <p>
+                  Color: Brown | Size: M
+                 </p>
+                </div>
+               </div>
+              </td>
+              <td>
+               $75.00
+              </td>
+              <td>
+               05 February 2024
+              </td>
+              <td class="in-stock">
+               In stock
+              </td>
+              <td>
+               <button class="add-to-cart-btn">
+                Add to Cart
+               </button>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+           <div class="wishlist-footer">
+            <div class="wishlist-link">
+             <span>
+              Wishlist Link:
+             </span>
+             <input readonly="" type="text" value="https://www.example.com"/>
+             <button>
+              Copy
+             </button>
+            </div>
+            <div>
+             <a href="#">
+              Clear Wishlist
+             </a>
+             <button class="add-to-cart-btn" style="padding: 7px;
+            background: #5a3d2b;
+            color: white;
+        ">
+              Add All to Cart
+             </button>
+            </div>
+           </div>
     </div>
    </div>
-   <table class="wishlist-table">
-    <thead>
-     <tr>
-      <th>
-       Product
-      </th>
-      <th>
-       Price
-      </th>
-      <th>
-       Date Added
-      </th>
-      <th>
-       Stock Status
-      </th>
-      <th>
-      </th>
-     </tr>
-    </thead>
-    <tbody>
-     <tr>
-      <td>
-       <div class="product-info">
-        <i class="fas fa-times remove-btn">
-        </i>
-        <img alt="Light Brown Sweater" src="https://placehold.co/50x50"/>
-        <div>
-         <p>
-          Light Brown Sweater
-         </p>
-         <p>
-          Color: Light Brown | Size: XXL
-         </p>
-        </div>
-       </div>
-      </td>
-      <td>
-       $64.00
-      </td>
-      <td>
-       18 February 2024
-      </td>
-      <td class="in-stock">
-       In stock
-      </td>
-      <td>
-       <button class="add-to-cart-btn">
-        Add to Cart
-       </button>
-      </td>
-     </tr>
-     <tr>
-      <td>
-       <div class="product-info">
-        <i class="fas fa-times remove-btn">
-        </i>
-        <img alt="Modern Brown Dress" src="https://placehold.co/50x50"/>
-        <div>
-         <p>
-          Modern Brown Dress
-         </p>
-         <p>
-          Color: Brown | Size: M
-         </p>
-        </div>
-       </div>
-      </td>
-      <td>
-       $90.00
-      </td>
-      <td>
-       11 February 2024
-      </td>
-      <td class="in-stock">
-       In stock
-      </td>
-      <td>
-       <button class="add-to-cart-btn">
-        Add to Cart
-       </button>
-      </td>
-     </tr>
-     <tr>
-      <td>
-       <div class="product-info">
-        <i class="fas fa-times remove-btn">
-        </i>
-        <img alt="Brown Winter Coat" src="https://placehold.co/50x50"/>
-        <div>
-         <p>
-          Brown Winter Coat
-         </p>
-         <p>
-          Color: Brown | Size: M
-         </p>
-        </div>
-       </div>
-      </td>
-      <td>
-       $60.00
-      </td>
-      <td>
-       11 February 2024
-      </td>
-      <td class="in-stock">
-       In stock
-      </td>
-      <td>
-       <button class="add-to-cart-btn">
-        Add to Cart
-       </button>
-      </td>
-     </tr>
-     <tr>
-      <td>
-       <div class="product-info">
-        <i class="fas fa-times remove-btn">
-        </i>
-        <img alt="Classic White Shirt" src="https://placehold.co/50x50"/>
-        <div>
-         <p>
-          Classic White Shirt
-         </p>
-         <p>
-          Color: White | Size: S
-         </p>
-        </div>
-       </div>
-      </td>
-      <td>
-       $45.00
-      </td>
-      <td>
-       05 February 2024
-      </td>
-      <td class="in-stock">
-       In stock
-      </td>
-      <td>
-       <button class="add-to-cart-btn">
-        Add to Cart
-       </button>
-      </td>
-     </tr>
-     <tr>
-      <td>
-       <div class="product-info">
-        <i class="fas fa-times remove-btn">
-        </i>
-        <img alt="Trendy Brown Coat" src="https://placehold.co/50x50"/>
-        <div>
-         <p>
-          Trendy Brown Coat
-         </p>
-         <p>
-          Color: Brown | Size: M
-         </p>
-        </div>
-       </div>
-      </td>
-      <td>
-       $75.00
-      </td>
-      <td>
-       05 February 2024
-      </td>
-      <td class="in-stock">
-       In stock
-      </td>
-      <td>
-       <button class="add-to-cart-btn">
-        Add to Cart
-       </button>
-      </td>
-     </tr>
-    </tbody>
-   </table>
-   <div class="wishlist-footer">
-    <div class="wishlist-link">
-     <span>
-      Wishlist Link:
-     </span>
-     <input readonly="" type="text" value="https://www.example.com"/>
-     <button>
-      Copy
-     </button>
-    </div>
-    <div>
-     <a href="#">
-      Clear Wishlist
-     </a>
-     <button class="add-to-cart-btn" style="padding: 7px;
-    background: #5a3d2b;
-    color: white;
-">
-      Add All to Cart
-     </button>
-    </div>
-   </div>
-  </div>
-
 
  <!-- Features Section -->
 <section class="features">

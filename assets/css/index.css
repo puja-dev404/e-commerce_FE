@@ -77,7 +77,7 @@ body {
 
   /* Hero Section */
   .hero-section {
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
     overflow: hidden;
     position: relative;
     padding-top: 80px; 
@@ -150,12 +150,12 @@ body {
       display: none; 
     }
     .navbar {
-      display: block; /* Show navbar in mobile view */
-      padding: 15px 0; /* Adjust padding */
+      display: block; 
+      padding: 15px 0; 
     }
 
     .navbar-nav {
-      margin-left: 0; /* Remove excess space between navbar items */
+      margin-left: 0; 
     }
 
     .navbar-nav .nav-link {
@@ -164,12 +164,12 @@ body {
     }
 
     .hero-section {
-      padding-top: 100px; /* Add more space to prevent overlap with fixed navbar */
+      padding-top: 100px; 
     }
 
     .hero-section .container {
       flex-direction: column;
-      text-align: center; /* Center text in mobile view */
+      text-align: center; 
     }
 
     .hero-section .hero-image {
@@ -314,7 +314,6 @@ body {
 /* categories section end*/
 
  /* product section */
- /* Container Styles */
 .container h5, .container h2 {
   text-align: left;
 }
@@ -352,7 +351,7 @@ body {
   position: relative;
   height: 300px;
   overflow: hidden;
-  border: none; /* Removed border */
+  border: none; 
 }
 
 .image-container img {
@@ -474,7 +473,7 @@ body {
   transition: opacity 0.5s ease-in-out, transform 0.3s ease, filter 0.3s ease;
 }
 
-/* Container for each slider item to handle hover effect */
+/* slider section */
 .slider-content {
   position: relative;
   overflow: hidden;
@@ -696,7 +695,6 @@ body {
   background-color: #f4bd62;
 }
 
-/* Ensuring the image inside the card is properly displayed */
 .collection-card img {
   width: 50%;
   height: auto;
@@ -706,9 +704,9 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px; /* Adjusted gap for better spacing */
+  gap: 8px; 
   text-transform: uppercase;
-  padding: 8px 16px; /* Smaller padding for smaller buttons */
+  padding: 8px 16px;
   font-weight: bold;
   text-decoration: none;
   border-radius: 4px;
@@ -873,7 +871,7 @@ body {
   .insta-item {
     position: relative;
     width: 100%;
-    aspect-ratio: 1 / 1; /* Ensure square images */
+    aspect-ratio: 1 / 1;
     overflow: hidden;
     border-radius: 10px;
     cursor: pointer;

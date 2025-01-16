@@ -1,23 +1,30 @@
+.shop-header {
+  background-color: #f0eeee;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 0;
+ }
 
- .shop-header{
-    background-color: #f0eeee;
-    padding: 20px 0;
-    text-align: center;
-  }
+.shop-header h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
-  .shop-header h1 {
-    font-size: 2rem;
-    color: #333;
-    margin: 0;
-  }
+.shop-header .breadcrumb {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
-  .breadcrumb {
-    background-color: transparent;
-    padding: 0;
-    margin: 0;
-    font-size: 0.9rem;
-    color: #777;
-  }
+.shop-header .breadcrumb span {
+
+  font-size: 1rem;
+}
+
+.shop-header .breadcrumb span:first-child {
+  font-weight: bold;
+}
 
   .filter-section {
     padding: 20px 15px;
@@ -52,12 +59,19 @@
     cursor: pointer;
     text-decoration: underline;
   }
-
+ 
   @media (max-width: 768px) {
-    .shop-header h1 {
-      font-size: 1.5rem;
-    }
+    .shop-header {
+      padding: 15px 0;
+  }
 
+  .shop-header h1 {
+      font-size: 1.5rem;
+  }
+
+  .shop-header .breadcrumb span {
+      font-size: 0.9rem;
+  }
     .filter-section {
       padding: 10px;
     }

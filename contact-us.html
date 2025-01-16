@@ -19,6 +19,7 @@
     <link rel="icon" href="./assets/images/logo.png" type="image/png">
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/shop.css">
 
     
 </head>
@@ -35,11 +36,10 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto gap-4">
+            <ul class="navbar-nav mx-auto ">
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
                 <li class="nav-item"><a class="nav-link" href="accessories.html">Accessories</a></li>
-                <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
             </ul>
             <div class="icons d-flex">
@@ -51,51 +51,94 @@
         </div>
     </div>
 </nav>
-<div class="header mt-5 mb-4 position-relative">
-    <h1 class="text-center">Contact Us</h1>
-    <div class="breadcrumb position-absolute" style="left: 44%;">Home / Contact Us</div>
-</div>
+
+<section class="hero-section">
+<div class="row">
+ <!-- Shop Header -->
+ <section class="shop-header">
+    <h1>Contact Us</h1>
+    <nav class="breadcrumb justify-content-center">
+        <span>Home</span> / <span>Shop</span>
+    </nav>
+</section>
+
 
 <div class="container">
     <div class="row">
-        <!-- Form Section -->
-        <div class="col-md-6">
-            <div class="form-section">
-                <h2>Get in Touch</h2>
-                <p>Your email address will not be published. Required fields are marked *</p>
-                <form>
-                    <input type="text" class="form-control mb-3" placeholder="Your Name *" required>
-                    <input type="email" class="form-control mb-3" placeholder="Email *" required>
-                    <input type="text" class="form-control mb-3" placeholder="Subject *" required>
-                    <textarea class="form-control mb-3" placeholder="Your Message *" rows="5" required></textarea>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
-        </div>
-
-        <!-- Info Section -->
-        <div class="col-md-6">
-            <div class="info-section">
-                <h2>Address</h2>
-                <p>4507 Washington Ave. Manchester, Kentucky 39495</p>
-                <h2>Contact</h2>
-                <p>Phone: +1 234 567 890</p>
-                <p>Email: example@gmail.com</p>
-                <h2>Open Time</h2>
-                <p>Monday - Friday: 10:00 - 20:00</p>
-                <p>Saturday - Sunday: 11:00 - 18:00</p>
-                <h2>Stay Connected</h2>
-                <div class="social-icons">
-                    <a href="#" class="me-2"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="me-2"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="me-2"><i class="fab fa-youtube"></i></a>
+        <div class="container">
+            <div class="row contact-container">
+                <!-- Contact Form -->
+                <div class="col-lg-7 col-md-6">
+                    <h2>Get in Touch</h2>
+                    <p class="required-text">Your email address will not be published. Required fields are marked</p>
+                    
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Ex. John Doe" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="example@gmail.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Enter Subject" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Enter here..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-send">Send Message</button>
+                    </form>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="col-lg-5 col-md-6">
+                    <div class="user-contact-info mt-2">
+                        <div class="mb-4">
+                            <h2>Address</h2>
+                            <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h2>Contact</h2>
+                            <p>
+                                <i class="fas fa-phone me-2"></i> +0123-456-789<br>
+                                <i class="fas fa-envelope me-2"></i> example@gmail.com
+                            </p>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h2>Open Time</h2>
+                            <p>
+                                Monday - Friday : 10:00 - 20:00<br>
+                                Saturday - Sunday : 11:00 - 18:00
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <h2>Stay Connected</h2>
+                            <div class="contact_social-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-tiktok"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
 <!-- Map Section -->
 <div class="container mt-4">
@@ -105,6 +148,8 @@
         </div>
     </div>
 </div>
+</div>
+</section>    
 
     
     
